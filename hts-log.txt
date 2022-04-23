@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 21 Mar 2022 02:19:02 at http://lambert.kwst.net/site/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://lambert.kwst.net/site/index.html -O1 "C:\Users\Acer\Desktop\resturant" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+02:28:54	Warning: 	file not stored in cache due to bogus state (broken size, expected 12429283 got 3104255): lambert.kwst.net/site/video/1.mp4
+02:28:55	Warning: 	Retry after error -4 (Incorrect length (3104255 Bytes, 12429283 expected)) at link lambert.kwst.net/site/video/1.mp4 (from lambert.kwst.net/site/index.html)
+02:29:00	Error: 	"Failed Dependency" (424) at link lambert.kwst.net/site/images/grabbing.png (from lambert.kwst.net/site/css/plugins.css)
+02:35:21	Error: 	"Failed Dependency" (424) at link lambert.kwst.net/site/team/images/team/big/1.jpg (from lambert.kwst.net/site/team/mem1.html)
+02:35:21	Error: 	"Failed Dependency" (424) at link lambert.kwst.net/site/team/images/team/big/2.jpg (from lambert.kwst.net/site/team/mem2.html)
+02:35:21	Error: 	"Failed Dependency" (424) at link lambert.kwst.net/site/team/images/team/big/3.jpg (from lambert.kwst.net/site/team/mem3.html)
+02:35:21	Error: 	"Failed Dependency" (424) at link lambert.kwst.net/site/team/images/team/big/4.jpg (from lambert.kwst.net/site/team/mem4.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 minutes 19 seconds : 85 links scanned, 78 files written (24795074 bytes overall) [24093627 bytes received at 24610 bytes/sec], 1004738 bytes transferred using HTTP compression in 17 files, ratio 25%, 2.2 requests per connection
+(5 errors, 2 warnings, 0 messages)
